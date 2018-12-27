@@ -1,6 +1,6 @@
 TypeScript is good. But the supporting infrastructure around it is bloated and overengineered.
 
-You don't need to spend your time seting up some framework or packaging libraries just to make 
+Don't spend your time seting up frameworks or packaging libraries just to make 
 your TypeScirpt to work in Browser. No need for overingeenered and bloated shit like WebPack, 
 Babel, Require.JS, System.JS etc.
 
@@ -15,10 +15,10 @@ Run
 - Open another terminal tab and type `npm run server`
 - Open Browser http://localhost:8080
 
-P.S.
-====
+Details
+=======
 
-- Yes, you may need WebPack to produce optimised build.
+- Yes, you may need WebPack in complex cases to produce optimised build.
 - TypeScript produces the build but not the loader. For some strange reason TypeScript Team
   refuses to add 10 lines required for the Loader. That's why those 10 lines of code provided
   separately. 
