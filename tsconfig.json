@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "lib": ["dom", "es2017"],
+    "module": "AMD",
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2017",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "rootDir": ".",
+    "outFile": "./build/app.js"
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "build",
+    "vendor",
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

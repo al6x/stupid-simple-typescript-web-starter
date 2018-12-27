@@ -1,0 +1,19 @@
+{
+  "name": "my-awesome-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build-and-watch": "tsc -w",
+    "build": "tsc",
+    "server": "http-server -c-1 ."
+  },
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "typescript": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fucking-npm-warns-if-you-dont-have-repository"
+  },
+  "license": "UNLICENSED"
+}
