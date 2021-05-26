@@ -1,7 +1,7 @@
 TypeScript is good. But the supporting infrastructure around it is bloated and overengineered.
 
-Don't spend your time seting up frameworks or packaging libraries just to make 
-your TypeScirpt to work in Browser. No need for overingeenered and bloated shit like WebPack, 
+Don't spend your time setting up frameworks or packaging libraries just to make 
+your TypeScript to work in Browser. No need for overengineered and bloated shit like WebPack, 
 Babel, Require.JS, System.JS etc.
 
 TypeScript can produce the build all by itself. Use this repo as an example.
@@ -23,4 +23,4 @@ Details
   refuses to add 10 lines required for the Loader. That's why those 10 lines of code provided
   separately. 
 - Your 10 lines loader don't implement full AMD spec! Yes, because - fuck AMD spec. I need
-  to make my small TypeScript project work without spending my valuable time on outdated and overingeenered shit like full AMD spec.
+  to make my small TypeScript project work without spending my valuable time on outdated and overengineered shit like full AMD spec.
